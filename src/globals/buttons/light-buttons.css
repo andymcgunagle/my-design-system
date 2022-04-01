@@ -1,0 +1,23 @@
+button.light {
+  background-color: var(--clr-brand-100);
+  border-color: var(--clr-brand-100);
+  color: var(--clr-brand-700) !important;
+}
+
+button.light.danger {
+  background-color: var(--clr-danger-100);
+  border: var(--border-width-2) solid var(--clr-danger-100);
+  color: var(--clr-danger-700) !important;
+}
+
+button.light.gray {
+  background-color: var(--clr-gray-100);
+  border: var(--border-width-2) solid var(--clr-gray-100);
+  color: var(--clr-gray-900) !important;
+}
+
+button.light.success {
+  background-color: var(--clr-success-100);
+  border: var(--border-width-2) solid var(--clr-success-100);
+  color: var(--clr-success-700) !important;
+}

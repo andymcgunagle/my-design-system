@@ -1,0 +1,36 @@
+.material-icons,
+.material-icons-outlined,
+.material-icons-sharp, 
+.material-icons-two-tone, 
+.material-icons-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: inherit;
+  font-size: var(--font-size-10);
+  line-height: inherit;
+  user-select: none;
+}
+
+/* Colors */
+
+.icon.brand {
+  background-color: var(--clr-brand-500);
+  color: var(--clr-brand-50);
+}
+
+.icon.gray {
+  background-color: var(--clr-gray-200);
+  color: var(--clr-gray-900);
+}
+
+.icon.success {
+  background-color: var(--clr-success-200);
+  color: var(--clr-success-900);
+}
+
+.icon.danger {
+  background-color: var(--clr-danger-200);
+  color: var(--clr-danger-900);
+}

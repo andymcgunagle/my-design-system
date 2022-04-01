@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <title>My Design System</title>
+</head>
+
+<body>
+  <div class="column-center gap-2">
+    <h1 class="font-18 gray-900">My Design System</h1>
+    <h2 class="font-8 font-weight-4 gray-500">Inspired by Tailwind CSS & CSS Modules</h2>
+    <div class="card">
+      <h3 class="font-8 font-weight-6">Hello, world!</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora nesciunt quisquam sequi ipsum. Minima
+        natus labore magni? Tempora, quidem.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente totam ipsam similique iusto hic veniam earum
+        dolorum aliquid! Pariatur, quae.</p>
+    </div>
+    <form class="card glass">
+      <input type="text" placeholder="Input...">
+      <input type="text" placeholder="Rounded input..." class="input-rounded">
+
+      <div class="row-center">
+        <button class="standard">Submit</button>
+        <button class="light">Submit</button>
+        <button class="outlined">Submit</button>
+        <button class="text">Submit</button>
+      </div>
+
+      <div class="row-center">
+        <button class="gray standard">Submit</button>
+        <button class="gray light">Submit</button>
+        <button class="gray outlined">Submit</button>
+        <button class="gray text">Submit</button>
+      </div>
+
+      <div class="row-center">
+        <button class="success standard">Submit</button>
+        <button class="success light">Submit</button>
+        <button class="success outlined">Submit</button>
+        <button class="success text">Submit</button>
+      </div>
+
+      <div class="row-center">
+        <button class="danger standard">Submit</button>
+        <button class="danger light">Submit</button>
+        <button class="danger outlined">Submit</button>
+        <button class="danger text">Submit</button>
+      </div>
+
+      <div class="row-center justify-evenly">
+        <button class="shape circle small">
+          <span class="material-icons-round">home</span>
+        </button>
+        <button class="gray standard shape circle">
+          <span class="material-icons-round">home</span>
+        </button>
+        <button class="success standard shape circle large">
+          <span class="material-icons-round">home</span>
+        </button>
+        <button class="danger standard shape circle extra-large">
+          <span class="material-icons-round">home</span>
+        </button>
+      </div>
+
+      <div class="row-center gap-4">
+        <button class="outlined shape square small">
+          <span class="material-icons-round">home</span>
+        </button>
+        <button class="gray light shape square">
+          <span class="material-icons-round">home</span>
+        </button>
+        <button class="success outlined shape square large">
+          <span class="material-icons-round">home</span>
+        </button>
+        <button class="danger light shape square extra-large">
+          <span class="material-icons-round">home</span>
+        </button>
+      </div>
+
+      <div class="row-center">
+        <button class="with-icon">
+          <span class="material-icons-round">list</span>
+          <span>Button with icon</span>
+        </button>
+        <button class="gray standard with-icon">
+          <span class="material-icons-round">computer</span>
+          <span>Button with icon</span>
+        </button>
+        <button class="success outlined with-icon">
+          <span class="material-icons-round">done</span>
+          <span>Button with icon</span>
+        </button>
+        <button class="danger text with-icon">
+          <span class="material-icons-round">warning</span>
+          <span>Button with icon</span>
+        </button>
+      </div>
+    </form>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
