@@ -2,3 +2,7 @@
   block-size: 100vh;
   scroll-snap-align: center;
 }
+
+.center {
+  margin: 0 auto;
+}

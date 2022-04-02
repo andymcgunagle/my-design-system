@@ -13,6 +13,15 @@ button.text:hover {
   border-color: var(--clr-brand-100);
 }
 
+button.text.accent {
+  color: var(--clr-accent-600);
+}
+  
+button.text.accent:hover {
+  background-color: var(--clr-accent-100);
+  border-color: var(--clr-accent-100);
+}
+
 button.text.danger {
   color: var(--clr-danger-600);
 }

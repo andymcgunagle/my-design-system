@@ -13,6 +13,7 @@ button {
   padding: var(--space-0) var(--space-2);
   user-select: none;
   width: fit-content;
+  transition: none;
 }
 
 button * {
@@ -24,20 +25,22 @@ button:active {
   box-shadow: none;
 }
 
+button.standard.accent {
+  background-color: var(--clr-accent-700);
+  border: var(--border-width-2) solid var(--clr-accent-700);
+}
+
 button.standard.danger {
   background-color: var(--clr-danger-700);
   border: var(--border-width-2) solid var(--clr-danger-700);
-  color: var(--clr-gray-50);
 }
   
 button.standard.gray {
   background-color: var(--clr-gray-700);
   border: var(--border-width-2) solid var(--clr-gray-700);
-  color: var(--clr-gray-50);
 }
   
 button.standard.success {
   background-color: var(--clr-success-700);
   border: var(--border-width-2) solid var(--clr-success-700);
-  color: var(--clr-gray-50);
 }

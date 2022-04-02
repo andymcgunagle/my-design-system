@@ -11,6 +11,14 @@
   padding: var(--space-6);
 }
 
+.card.brand {
+  background-color: var(--clr-brand-700);
+}
+
+.card.brand > * {
+  color: var(--clr-gray-50);
+}
+
 .card.dark {
   background-color: var(--clr-gray-900);
 }

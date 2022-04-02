@@ -3,7 +3,7 @@ input {
   border-radius: var(--border-radius-0);
   border: var(--border-width-2) solid var(--clr-gray-300);
   line-height: 1;
-  padding: var(--space-0);
+  padding: var(--space-0) var(--space-2);
   transition-duration: var(--duration-2);
   transition-property: background-color, border-bottom, border-color;
   transition-timing-function: ease-in;
@@ -20,7 +20,40 @@ input::placeholder {
   color: var(--clr-gray-300);
 }
 
-input.input-rounded {
+input.rounded {
   border-radius: var(--border-radius-full);
-  padding: var(--space-0) var(--space-2);
+  padding: var(--space-0) var(--space-4);
+}
+
+/* Input with icon */
+
+div.input-with-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+div.input-with-icon-wrapper > .material-icons-round {
+  left: var(--space-4);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.33;
+}
+
+input.with-icon {
+  padding-left: var(--space-10);
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  div.input-with-icon-wrapper > .material-icons-round {
+    left: var(--space-2);
+  }
+
+  input.with-icon {
+    padding-left: var(--space-8);
+  }
 }

@@ -9,6 +9,15 @@ button.outlined:hover {
   background-color: var(--clr-brand-100);
 }
   
+button.outlined.accent {
+  border-color: var(--clr-accent-600);
+  color: var(--clr-accent-600);
+}
+  
+button.outlined.accent:hover {
+  background-color: var(--clr-accent-100);
+}
+
 button.outlined.danger {
   border-color: var(--clr-danger-600);
   color: var(--clr-danger-600);

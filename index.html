@@ -13,22 +13,63 @@
   <div class="column-center gap-2">
     <h1 class="font-18 gray-900">My Design System</h1>
     <h2 class="font-8 font-weight-4 gray-500">Inspired by Tailwind CSS & CSS Modules</h2>
-    <div class="card">
+
+    <div class="card brand">
       <h3 class="font-8 font-weight-6">Hello, world!</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora nesciunt quisquam sequi ipsum. Minima
-        natus labore magni? Tempora, quidem.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente totam ipsam similique iusto hic veniam earum
-        dolorum aliquid! Pariatur, quae.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora nesciunt quisquam sequi ipsum. Minima
+        natus labore magni? Tempora, quidem.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente totam ipsam similique iusto hic veniam earum
+        dolorum aliquid! Pariatur, quae.
+      </p>
+      <button class="light with-icon center">
+        <span class="material-icons-round">done</span>
+        <span>Button with icon</span>
+      </button>
     </div>
+
+    <div class="card">
+      <h3 class="font-8 font-weight-6 center">Hello, world!</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora nesciunt quisquam sequi ipsum. Minima
+        natus labore magni? Tempora, quidem.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente totam ipsam similique iusto hic veniam earum
+        dolorum aliquid! Pariatur, quae.
+      </p>
+      <button class="text with-icon center danger">
+        <span class="material-icons-round">done</span>
+        <span>Button with icon</span>
+      </button>
+    </div>
+
     <form class="card glass">
       <input type="text" placeholder="Input...">
-      <input type="text" placeholder="Rounded input..." class="input-rounded">
+      <input type="text" placeholder="Rounded input..." class="rounded">
+      <div class="input-with-icon-wrapper">
+        <span class="material-icons-round in-input">search</span>
+        <input type="text" placeholder="Input..." class="with-icon">
+      </div>
+      <div class="input-with-icon-wrapper">
+        <span class="material-icons-round">search</span>
+        <input type="text" placeholder="Input..." class="with-icon rounded">
+      </div>
 
       <div class="row-center">
         <button class="standard">Submit</button>
         <button class="light">Submit</button>
         <button class="outlined">Submit</button>
         <button class="text">Submit</button>
+      </div>
+
+      <div class="row-center">
+        <button class="accent standard">Submit</button>
+        <button class="accent light">Submit</button>
+        <button class="accent outlined">Submit</button>
+        <button class="accent text">Submit</button>
       </div>
 
       <div class="row-center">
