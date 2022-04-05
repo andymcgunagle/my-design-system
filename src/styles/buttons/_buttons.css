@@ -1,4 +1,5 @@
 @import './helpers.css';
+@import './hover-styles.css';
 @import './light-buttons.css';
 @import './outlined-buttons.css';
 @import './text-buttons.css';
@@ -10,10 +11,11 @@ button {
   box-shadow: var(--box-shadow-2);
   color: var(--clr-gray-50);
   cursor: pointer;
+  height: fit-content;
   padding: var(--space-0) var(--space-2);
+  transition: none;
   user-select: none;
   width: fit-content;
-  transition: none;
 }
 
 button * {

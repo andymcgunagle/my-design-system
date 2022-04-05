@@ -11,6 +11,7 @@
 @import './inputs.css';
 @import './keyframes.css';
 @import './lists.css';
+@import './modals.css';
 @import './shapes.css';
 @import './titled-section.css';
 
@@ -28,7 +29,7 @@
 }
 
 body {
-  background: var(--clr-gray-200);
+  background: hsl(215, 37.5%, 95%);
   padding: var(--space-2);
   padding-bottom: var(--space-12);
 }

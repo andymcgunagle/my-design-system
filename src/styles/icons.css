@@ -4,7 +4,7 @@
   align-items: center;
 
   color: inherit;
-  font-size: var(--font-size-10);
+  font-size: inherit;
   line-height: inherit;
   user-select: none;
 }
@@ -13,20 +13,20 @@
 
 .material-icons-round.brand {
   background-color: var(--clr-brand-500);
-  color: var(--clr-brand-50);
+  color: var(--clr-brand-50) !important;
 }
 
 .material-icons-round.gray {
   background-color: var(--clr-gray-200);
-  color: var(--clr-gray-900);
+  color: var(--clr-gray-900) !important;
 }
 
 .material-icons-round.success {
   background-color: var(--clr-success-200);
-  color: var(--clr-success-900);
+  color: var(--clr-success-900) !important;
 }
 
 .material-icons-round.danger {
   background-color: var(--clr-danger-200);
-  color: var(--clr-danger-900);
+  color: var(--clr-danger-900) !important;
 }

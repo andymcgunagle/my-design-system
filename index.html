@@ -10,11 +10,11 @@
 </head>
 
 <body>
-  <div class="column-center gap-2">
+  <div class="column-center gap-2 max-width-600 center">
     <h1 class="font-18 gray-900">My Design System</h1>
     <h2 class="font-8 font-weight-4 gray-500">Inspired by Tailwind CSS & CSS Modules</h2>
 
-    <div class="card brand">
+    <div class="card brand column-center">
       <h3 class="font-8 font-weight-6">Hello, world!</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora nesciunt quisquam sequi ipsum. Minima
@@ -24,13 +24,18 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente totam ipsam similique iusto hic veniam earum
         dolorum aliquid! Pariatur, quae.
       </p>
-      <button class="light with-icon center">
-        <span class="material-icons-round">done</span>
-        <span>Button with icon</span>
-      </button>
+      <div class="row-evenly width-100">
+        <button class="light with-icon center">
+          Button
+        </button>
+        <button class="light with-icon center">
+          <span class="material-icons-round">done</span>
+          <span>Button with icon</span>
+        </button>
+      </div>
     </div>
 
-    <div class="card">
+    <div class="card column-center">
       <h3 class="font-8 font-weight-6 center">Hello, world!</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora nesciunt quisquam sequi ipsum. Minima
@@ -46,7 +51,7 @@
       </button>
     </div>
 
-    <form class="card glass">
+    <form class="card glass column-center">
       <input type="text" placeholder="Input...">
       <input type="text" placeholder="Rounded input..." class="rounded">
       <div class="input-with-icon-wrapper">

@@ -1,13 +1,7 @@
 .card {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-
   background-color: var(--clr-white);
   border-radius: var(--border-radius-6);
   box-shadow: var(--box-shadow-8);
-  height: fit-content;
-  max-width: 600px;
   padding: var(--space-6);
 }
 
@@ -19,12 +13,18 @@
   color: var(--clr-gray-50);
 }
 
-.card.dark {
-  background-color: var(--clr-gray-900);
+.card.brand.light {
+  background-color: var(--clr-brand-100);
+  border: var(--border-width-2) solid var(--clr-brand-700);
+}
+
+.card.danger.light {
+  background-color: var(--clr-danger-100);
+  border: var(--border-width-2) solid var(--clr-danger-700);
 }
 
 .card.glass {
-  backdrop-filter: blur(10px) saturate(125%);
   -webkit-backdrop-filter: blur(10px) saturate(125%);
+  backdrop-filter: blur(10px) saturate(125%);
   background-color: rgba(255, 255, 255, 0.25);
 }
