@@ -40,10 +40,10 @@ div.input-with-icon-wrapper {
 div.input-with-icon-wrapper > .material-icons-round {
   position: absolute;
   left: 1rem;
-  top: 51%;
+  top: 50%;
   transform: translateY(-50%);
 
-  font-size: var(--font-size-10);
+  font-size: var(--font-size-8);
   opacity: 0.25;
 }
 
@@ -53,5 +53,5 @@ div.input-with-icon-wrapper:focus-within > .material-icons-round {
 }
 
 input.with-icon {
-  padding-left: clamp(2.75rem, 2.7rem + 0.25vw, 3rem);
+  padding-left: clamp(2.5rem, 2.5rem + 0.25vw, 3rem);
 }
