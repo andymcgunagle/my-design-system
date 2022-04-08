@@ -2,7 +2,7 @@
   background-color: var(--clr-white);
   border-radius: var(--border-radius-6);
   box-shadow: var(--box-shadow-8);
-  padding: var(--space-6);
+  padding: var(--space-16);
 }
 
 .card.brand {

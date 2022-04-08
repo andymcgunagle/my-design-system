@@ -1,12 +1,25 @@
 /* Columns */
 
-.column-center {
+.column-center,
+.column-end,
+.column-start {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  gap: var(--space-2);
+  gap: var(--space-6);
+}
+
+.column-center {
+  align-items: center;
+}
+
+.column-end {
+  align-items: flex-end;
+}
+
+.column-start {
+  align-items: flex-start;
 }
 
 .column-center input {
@@ -15,29 +28,24 @@
 
 /* Rows */
 
-.row-between {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-}
-
-.row-center {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-}
-
+.row-between,
+.row-center,
 .row-evenly {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  gap: var(--space-2);
+  gap: var(--space-6);
+}
+
+.row-between {
+  justify-content: space-between;
+}
+
+.row-center {
+  justify-content: center;
+}
+
+.row-evenly {
+  justify-content: space-evenly;
 }

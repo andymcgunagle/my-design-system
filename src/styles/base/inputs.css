@@ -3,7 +3,7 @@ input {
   border-radius: var(--border-radius-0);
   border: var(--border-width-2) solid var(--clr-gray-300);
   line-height: 1;
-  padding: var(--space-0) var(--space-2);
+  padding: var(--space-4) var(--space-8);
   transition-duration: var(--duration-2);
   transition-property: background-color, border-bottom, border-color;
   transition-timing-function: ease-in;
@@ -21,12 +21,13 @@ input::placeholder {
   color: var(--clr-gray-300) !important;
 }
 
+/* Rounded */
+
 input.rounded {
   border-radius: var(--border-radius-full);
-  padding: var(--space-0) var(--space-4);
 }
 
-/* Input with icon */
+/* With Icon */
 
 div.input-with-icon-wrapper {
   display: flex;
@@ -41,10 +42,10 @@ div.input-with-icon-wrapper > .material-icons-round {
   position: absolute;
   left: 1rem;
   top: 50%;
-  transform: translateY(-50%);
 
   font-size: var(--font-size-8);
   opacity: 0.25;
+  transform: translateY(-50%);
 }
 
 div.input-with-icon-wrapper:focus-within > .material-icons-round {
@@ -53,5 +54,5 @@ div.input-with-icon-wrapper:focus-within > .material-icons-round {
 }
 
 input.with-icon {
-  padding-left: clamp(2.5rem, 2.5rem + 0.25vw, 3rem);
+  padding-left: var(--space-20);
 }

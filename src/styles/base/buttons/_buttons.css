@@ -12,7 +12,7 @@ button {
   color: var(--clr-gray-50);
   cursor: pointer;
   height: fit-content;
-  padding: var(--space-0) var(--space-2);
+  padding: var(--space-2) var(--space-4);
   transition: none;
   user-select: none;
   width: fit-content;
@@ -23,7 +23,9 @@ button * {
 }
   
 button:active {
-  transform: translateY(0.125rem);
+  /* transform: translateY(0.125rem); */
+  /* scale button on click */
+  transform: scale(0.95);
   box-shadow: none;
 }
 
