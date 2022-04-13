@@ -2,18 +2,22 @@
   border: 1px solid red;
 }
 
-.center {
+.margin-inline-auto {
   margin-inline: auto;
 }
 
 .max-width-600 {
   max-width: 600px;
-};
+}
+
+.text-align-center {
+  text-align: center;
+}
 
 .titled-section {
   display: flex;
   flex-direction: column;
-  gap: var(--space-0);
+  gap: 0.5rem;
 }
 
 .titled-section > :first-child {

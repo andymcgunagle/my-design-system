@@ -8,16 +8,14 @@
 
 * {
   box-sizing: border-box;
-  color: var(--clr-gray-900);
+  color: var(--color-gray-900);
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira, Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-size: var(--font-size-4);
+  font-size: var(--font-size-2);
   list-style: decimal inside;
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: hsl(210, 40%, 95%);
-  padding: var(--space-6);
-  padding-bottom: var(--space-12);
+  padding: 1rem;
 }
