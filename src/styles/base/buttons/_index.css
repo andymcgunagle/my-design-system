@@ -12,7 +12,8 @@ button {
   color: var(--color-gray-50);
   cursor: pointer;
   height: fit-content;
-  padding: 0.25rem 1rem;
+  line-height: 1;
+  padding: 0.5rem 1rem;
   transition: none;
   user-select: none;
   width: fit-content;
@@ -23,8 +24,8 @@ button * {
 }
   
 button:active {
-  transform: scale(0.95);
   box-shadow: none;
+  transform: scale(0.95);
 }
 
 button.standard.accent {

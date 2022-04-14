@@ -1,11 +1,9 @@
 .shape {
-  height: 2rem;
-  padding: 0;
-  width: 2rem;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.shape * {
-  font-size: var(--font-size-6);
+  padding: 0;
 }
 
 /* Shapes */
@@ -26,7 +24,16 @@
 }
 
 .shape.small * {
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-0);
+}
+
+.shape.medium {
+  height: 2rem;
+  width: 2rem;
+}
+
+.shape.medium * {
+  font-size: var(--font-size-4);
 }
 
 .shape.large {
@@ -35,7 +42,7 @@
 }
 
 .shape.large * {
-  font-size: var(--font-size-8);
+  font-size: var(--font-size-6);
 }
 
 .shape.extra-large {
